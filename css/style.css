@@ -160,7 +160,7 @@ img {
   font-size: 26px;
   font-weight: 400;
 }
-.btn{
+.btn {
   display: inline-block;
   width: 180px;
   margin-bottom: 18px;
@@ -213,7 +213,7 @@ img {
 .news__content:nth-child(4n) {
   margin-right: 0px;
 }
-.news-content-wrapper{
+.news-content-wrapper {
   position: absolute;
   top: 145px;
   background: url(../img/mask.png);
@@ -237,14 +237,14 @@ img {
   margin-bottom: 19px;
   padding: 0 20px;
 }
-.news-content-wrapper:hover{
+.news-content-wrapper:hover {
   top: 0;
   -webkit-transition: top 0.3s ease-out 0.1s;
   -moz-transition: top 0.3s ease-out 0.1s;
   -o-transition: top 0.3s ease-out 0.1s;
   transition: top 0.3s ease-out 0.1s;
 }
-.btn--news__content{
+.btn--news__content {
   margin-left: 20px;
 }
 
@@ -348,7 +348,7 @@ img {
   margin-top: 9px;
   margin-right: 20px;
 }
-.btn--subscribe{
+.btn--subscribe {
   margin-left: 16px;
   margin-bottom: 24px;
 }
@@ -357,4 +357,44 @@ img {
   font-family: "Titillium Web";
   font-size: 14px;
   font-weight: 400;
+}
+
+@media(max-width: 1150px) {
+  .container {
+    width: auto;
+  }
+  .logo {
+    float: none;
+    margin: 15px auto 0;
+  }
+  .navigation {
+    float: none;
+    margin: 0 auto;
+  }
+  .btn--footer-contact {
+    margin-left: 0px;
+  }
+  .intro__text {
+    width: auto;
+  }
+  .navigation__item {
+    float: none;
+    display: inline-block;
+    margin-right: 6%;
+  }
+  .content-block__item:nth-child(4n) {
+    margin-right: 10px;
+  }
+  .features-item {
+    margin-top: 20px;
+    margin-right: 0;
+  }
+  .footer__adress {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+  }
+  .footer__social-btn{
+    margin-bottom: 20px;
+  }
 }
