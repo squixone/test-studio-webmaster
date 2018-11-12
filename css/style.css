@@ -311,7 +311,7 @@ img {
 
 .footer-bottom {
   min-height: 159px;
-  border: 1px solid #0e5f70;
+  border-top: 1px solid #0e5f70;
   background-color: #0e5f70;
 }
 .footer-left {
@@ -455,7 +455,7 @@ img {
   .footer-right {
     float: none;
     width: auto;
- }
+  }
 }
 
 @media(max-width: 480px) {
