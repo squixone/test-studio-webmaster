@@ -255,7 +255,6 @@ img {
   margin-top: -99px;
 }
 .footer-contact {
-  position: relative;
   min-height: 250px;
   background-color: #1f7c8f;
   border-top: 1px solid #1f7c8f;
@@ -295,13 +294,13 @@ img {
   margin-right: 0;
 }
 .btn--footer-contact {
-  margin-left: 400px;
+  display: inline-block;
 }
 .footer-contact__text {
-  position: absolute;
+  display: inline-block;
+  height: 40px;
   width: 370px;
-  top: 159px;
-  right: 332px;
+  margin-right: 30px;
   color: white;
   font-family: "Titillium Web";
   font-size: 14px;
@@ -434,15 +433,9 @@ img {
     font-size: 36px;
   }
   .footer-contact__text {
-    position: absolute;
-    top: 250px;
-    right: 0;
+    margin: 0;
     width: 100%;
     font-size: 16px;
-  }
-  .btn--footer-contact {
-    margin-left: 0px;
-    margin-top: 15px;
   }
   .btn--subscribe {
     margin-left: 0px;
@@ -464,9 +457,6 @@ img {
 @media(max-width: 480px) {
   .navigation__item:last-child {
     background-position: 38% 50%;
-  }
-  .footer-contact__text {
-    top: 285px;
   }
   .btn--footer-contact {
     margin-top: 25px;
