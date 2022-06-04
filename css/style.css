@@ -193,9 +193,9 @@ img {
 
 .content {
   min-height: 730px;
+  border-top: 1px solid white;
 }
 .news {
-  min-height: 730px;
   font-size: 0;
 }
 .news__title {
@@ -257,10 +257,6 @@ img {
 
 
 
-
-.main-footer {
-  margin-top: -99px;
-}
 .footer-contact {
   min-height: 250px;
   background-color: #1f7c8f;
@@ -426,6 +422,7 @@ img {
   .intro__text {
     width: auto;
     margin-bottom: 10px;
+    padding: 0 20px;
   }
 
   .news__content {
@@ -436,8 +433,8 @@ img {
     margin-right: 10px;
   }
   .news-content-wrapper {
-  top: 0px;
-  background: rgba(255, 255, 255, 0.62);
+    top: 0px;
+    background: rgba(255, 255, 255, 0.62);
   }
 
   .main-footer {
@@ -471,6 +468,9 @@ img {
 @media(max-width: 480px) {
   .navigation__item:last-child {
     background-position: -1px 42px;
+  }
+  .intro__text{
+    padding: 2px;
   }
   .btn--footer-contact {
     margin-top: 25px;
