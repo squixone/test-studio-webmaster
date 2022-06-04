@@ -117,6 +117,9 @@ img {
 .navigation__item:hover .navigation-dropdown {
   display: block;
 }
+.navigation-dropdown__link:hover {
+  color: #3dc054;
+}
 .navigation-dropdown::after {
   content: "";
   position: absolute;
