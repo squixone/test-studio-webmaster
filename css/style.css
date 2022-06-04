@@ -470,7 +470,6 @@ img {
 
 @media(max-width: 480px) {
   .intro__text{
-    padding: 2px;
   }
   .btn--footer-contact {
     margin-top: 25px;
