@@ -405,7 +405,7 @@ img {
   .navigation__item:last-child::before {
     content: "";
     position: absolute;
-    top: 8px;
+    top: 5px;
     width: 16px;
     height: 16px;
     background-image: url(..//img/search.png);
