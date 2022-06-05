@@ -64,6 +64,8 @@ img {
 }
 .navigation__item:last-child {
   position: relative;
+  left: 66px;
+  display: inline;
   padding-right: 0px;
 }
 .navigation__item:last-child::before {
@@ -89,7 +91,7 @@ img {
   color: #3dc054;
 }
 .search-input {
-  width: 64px;
+  width: 198px;
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 400;
